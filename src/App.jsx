@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <h1>Mailbox</h1>
+      <h1>Post Office</h1>
     </>
   );
 };
