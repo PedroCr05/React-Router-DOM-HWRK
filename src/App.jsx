@@ -22,7 +22,7 @@ const App = () => {
   };
 
   return (
-    <>
+    <main>
       <NavBar />
       <h1>Post Office</h1>
       <Routes>
@@ -44,7 +44,7 @@ const App = () => {
           element={<h2>404 Error | Please, return to the main page.</h2>}
         />
       </Routes>
-    </>
+    </main>
   );
 };
 
