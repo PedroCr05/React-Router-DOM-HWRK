@@ -3,9 +3,9 @@ import { useParams } from "react-router-dom";
 const MailboxDetails = ({ mailboxes }) => {
   const { mailboxId } = useParams();
 
-  //   console.log(mailboxes);
-  //   console.log(mailboxes[1].boxHolder);
-  //   console.log(mailboxes._id);
+  console.log(mailboxes);
+  console.log(mailboxes[1].boxHolder);
+  console.log(mailboxes._id);
 
   const selectedMailbox = mailboxes.find(
     (mail) => mail._id === Number(mailboxId)
@@ -13,10 +13,10 @@ const MailboxDetails = ({ mailboxes }) => {
 
   return (
     <>
-      {/* <h2>{selectedMailbox.boxHolder}</h2> */}
+      <h2>{selectedMailbox.boxHolder}</h2>
       <dl>
         <dt>Box Size:</dt>
-        {/* <dd>{selectedMailbox.boxSize}</dd> */}
+        <dd>{selectedMailbox.boxSize}</dd>
       </dl>
     </>
   );

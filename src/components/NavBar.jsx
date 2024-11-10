@@ -8,13 +8,12 @@ const NavBar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="mailboxes">Mailboxes</Link>
+          <Link to="/mailboxes">Mailboxes</Link>
+          {/* List of Mailboxes */}
         </li>
         <li>
-          <Link to="/new-mailbox">New Mailbox</Link>
-        </li>
-        <li>
-          <Link to="/mailbox-details">Details</Link>
+          <Link to="/new-mailbox">New Mailbox</Link>{" "}
+          {/* The form for mailboxes */}
         </li>
       </ul>
     </nav>

@@ -31,7 +31,7 @@ const App = () => {
           element={<h2>Welcome to the homepage of the post office!</h2>}
         />
         <Route
-          path="/mailbox-details"
+          path="/mailboxes/:mailboxId"
           element={<MailboxDetails mailboxes={mailboxes} />}
         />
         <Route
