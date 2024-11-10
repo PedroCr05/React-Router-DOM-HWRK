@@ -1,7 +1,10 @@
 const MailboxForm = () => {
   return (
     <>
-      <h1>Is this connected?</h1>
+      <form action="">
+        <input type="text" />
+        <select name="" id=""></select>
+      </form>
     </>
   );
 };
