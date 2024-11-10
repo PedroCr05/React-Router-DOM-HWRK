@@ -1,7 +1,7 @@
 const MailboxDetails = () => {
   return (
     <>
-      <h1>How about this Mailbox Details Router as well.</h1>
+      <h2>How about this Mailbox Details Router as well.</h2>
     </>
   );
 };

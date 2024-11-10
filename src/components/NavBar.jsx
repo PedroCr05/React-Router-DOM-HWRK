@@ -13,6 +13,9 @@ const NavBar = () => {
         <li>
           <Link to="/new-mailbox">New Mailbox</Link>
         </li>
+        <li>
+          <Link to="/mailbox-details">Details</Link>
+        </li>
       </ul>
     </nav>
   );

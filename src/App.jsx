@@ -17,9 +17,19 @@ const App = () => {
     <>
       <NavBar />
       <h1>Post Office</h1>
-      <MailboxDetails />
-      <MailboxForm />
-      <MailboxList />
+      <Routes>
+        <Route
+          path="/"
+          element={<h2>Welcome to the homepage of the post office!</h2>}
+        />
+        <Route path="/mailbox-details" element={<MailboxDetails />} />
+        <Route path="/mailboxes" element={<MailboxList />} />
+        <Route path="/new-mailbox" element={<MailboxForm />} />
+        <Route
+          path="/*"
+          element={<h2>404 Error | Please, return to the main page.</h2>}
+        />
+      </Routes>
     </>
   );
 };
