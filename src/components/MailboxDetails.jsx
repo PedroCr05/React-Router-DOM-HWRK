@@ -3,15 +3,15 @@ import { useParams } from "react-router-dom";
 const MailboxDetails = ({ mailboxes }) => {
   const { mailboxId } = useParams();
 
-  const singularMailbox = mailboxes.boxholder.find(
+  const selectedMailbox = mailboxes.find(
     (mail) => mail._id === Number(mailboxId)
   );
   return (
     <>
-      <h2>{singularMailbox.boxholder}</h2>
+      <h2>{selectedMailbox.boxholder}</h2>
       <dl>
         <dt>Box Size:</dt>
-        <dd>{singularMailbox.boxSize}</dd>
+        <dd>{selectedMailbox.boxSize}</dd>
       </dl>
     </>
   );
