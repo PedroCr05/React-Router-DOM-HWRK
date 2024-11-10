@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import { useEffect, useState } from "react";
+import MailboxDetails from "./components/MailboxDetails";
 import MailboxForm from "./components/MailboxForm";
+import MailboxList from "./components/MailboxList";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   const [selected, setSelected] = useState(null);
@@ -15,6 +17,9 @@ const App = () => {
     <>
       <NavBar />
       <h1>Post Office</h1>
+      <MailboxDetails />
+      <MailboxForm />
+      <MailboxList />
     </>
   );
 };
