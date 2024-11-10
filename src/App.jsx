@@ -6,10 +6,10 @@ import MailboxList from "./components/MailboxList";
 import NavBar from "./components/NavBar";
 
 const initStateTest = [
-  { _id: 1, boxholder: `Jay`, boxSize: `medium` },
-  { _id: 2, boxholder: `Shonnairn`, boxSize: `large` },
-  { _id: 3, boxholder: `Miyuki`, boxSize: `medium` },
-  { _id: 4, boxholder: `Juno`, boxSize: `small` },
+  { _id: 1, boxHolder: "Jay", boxSize: "medium" },
+  { _id: 2, boxHolder: "Shonnairn", boxSize: "large" },
+  { _id: 3, boxHolder: "Miyuki", boxSize: "medium" },
+  { _id: 4, boxHolder: "Juno", boxSize: "small" },
 ];
 
 const App = () => {
