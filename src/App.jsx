@@ -1,17 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import MailboxDetails from "./components/MailboxDetails";
 import MailboxForm from "./components/MailboxForm";
 import MailboxList from "./components/MailboxList";
 import NavBar from "./components/NavBar";
 
 const App = () => {
+  const [mailboxes, setMailboxes] = useState(null);
   const [selected, setSelected] = useState(null);
 
-  useEffect(() => {
-    const getSelected = () => {};
-    getSelected(setSelected);
-  });
+  const addBox = (newMailboxData) => {
+    newMailboxData._id = mailboxes.length + 1;
+    setSelected([...mailboxes, newMailboxData]);
+  };
 
   return (
     <>
