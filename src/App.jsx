@@ -6,8 +6,8 @@ import MailboxList from "./components/MailboxList";
 import NavBar from "./components/NavBar";
 
 const App = () => {
-  const [mailboxes, setMailboxes] = useState(null);
-  const [selected, setSelected] = useState(null);
+  const [mailboxes, setMailboxes] = useState({});
+  const [selected, setSelected] = useState({});
 
   const addBox = (newMailboxData) => {
     newMailboxData._id = mailboxes.length + 1;
@@ -23,7 +23,10 @@ const App = () => {
           path="/"
           element={<h2>Welcome to the homepage of the post office!</h2>}
         />
-        <Route path="/mailbox-details" element={<MailboxDetails />} />
+        <Route
+          path="/mailbox-details"
+          element={<MailboxDetails mailboxes={mailboxes} />}
+        />
         <Route path="/mailboxes" element={<MailboxList />} />
         <Route path="/new-mailbox" element={<MailboxForm />} />
         <Route

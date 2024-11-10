@@ -1,7 +1,18 @@
-const MailboxDetails = () => {
+import { useParams } from "react-router-dom";
+
+const MailboxDetails = ({ mailboxes }) => {
+  const { mailboxId } = useParams();
+
+  const singularMailbox = mailboxes.boxholder.find(
+    (mail) => mail._id === Number(mailboxId)
+  );
   return (
     <>
-      <h2>How about this Mailbox Details Router as well.</h2>
+      <h2>{singularMailbox.boxholder}</h2>
+      <dl>
+        <dt>Box Size:</dt>
+        <dd>{singularMailbox.boxSize}</dd>
+      </dl>
     </>
   );
 };
