@@ -1,4 +1,15 @@
-const MailboxForm = () => {
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+const initState = {
+  _id: 0,
+  boxHolder: "",
+  boxSize: "",
+};
+
+const MailboxForm = ({ addBox }) => {
+  console.log(addBox);
+
   return (
     <>
       <form action="">

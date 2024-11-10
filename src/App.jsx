@@ -5,7 +5,7 @@ import MailboxForm from "./components/MailboxForm";
 import MailboxList from "./components/MailboxList";
 import NavBar from "./components/NavBar";
 
-const initStateTest = [
+const initState = [
   { _id: 1, boxHolder: "Jay", boxSize: "medium" },
   { _id: 2, boxHolder: "Shonnairn", boxSize: "large" },
   { _id: 3, boxHolder: "Miyuki", boxSize: "medium" },
@@ -13,7 +13,7 @@ const initStateTest = [
 ];
 
 const App = () => {
-  const [mailboxes, setMailboxes] = useState(initStateTest);
+  const [mailboxes, setMailboxes] = useState(initState);
   // const [selected, setSelected] = useState({});
 
   const addBox = (newMailboxData) => {
@@ -38,7 +38,10 @@ const App = () => {
           path="/mailboxes"
           element={<MailboxList mailboxes={mailboxes} />}
         />
-        <Route path="/new-mailbox" element={<MailboxForm />} />
+        <Route
+          path="/mailboxes/new"
+          element={<MailboxForm addBox={addBox} />}
+        />
         <Route
           path="/*"
           element={<h2>404 Error | Please, return to the main page.</h2>}
