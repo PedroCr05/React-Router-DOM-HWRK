@@ -3,7 +3,7 @@
 ## Sections for this read me :D
 
 - [Technologies-Used](https://github.com/PedroCr05/React-Router-DOM-HWRK#technologies-used)
-- [Files]([https](https://github.com/PedroCr05/React-Router-DOM-HWRK)#files)
+- [Files](https://github.com/PedroCr05/React-Router-DOM-HWRK)#files)
 - [App-Structure](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-structure)
 - [Achievements](https://github.com/PedroCr05/React-Router-DOM-HWRK#achievements)
 - [Credits](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#credits)
