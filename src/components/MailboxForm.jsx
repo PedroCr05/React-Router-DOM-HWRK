@@ -8,11 +8,24 @@ const initState = {
 };
 
 const MailboxForm = ({ addBox }) => {
-  console.log(addBox);
+  const [formData, setFormData] = useState(initState);
+  const nav = useNavigate();
+
+  const handleSumbit = (e) => {
+    e.preventDefault();
+    addBox(formData);
+    setFormData(initState);
+    nav(`/mailboxes`);
+  };
+
+  const handleChange = ({ target }) => {
+    setFormData({ ...formData, [target.boxHolder]: target.value });
+  };
 
   return (
     <>
-      <form action="">
+      <h2>New Mailbox</h2>
+      <form onSubmit={handleSumbit}>
         <input type="text" />
         <select name="" id=""></select>
       </form>
