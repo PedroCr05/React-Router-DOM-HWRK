@@ -6,6 +6,7 @@
 - [App-Structure](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-structure)
 - [Achievements](https://github.com/PedroCr05/React-Router-DOM-HWRK#achievements)
 - [Credits](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#credits)
+- [Conclusion](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#conclusion)
 
 ## Technologies Used
 
@@ -52,7 +53,9 @@ As always thanks to chatGPT for helping me build this Read Me page! :D
 
 - [ChatGPT](https://chatgpt.com)
 
-### Any questions or just curious on certain thins?
+## Conclusion
+
+### Questions or anything that needs to be pointed out
 
 - As a user when I'm on the details page. What if I want to press a go back button/text? Since sometimes moving my cursor up to the top is too much. Plus it would be beneficial if I as a user doesn't know how to go back. Or if another case. This details page is in a component within another component. How would I get there without using a Router DOM?
 
