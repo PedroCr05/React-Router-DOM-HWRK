@@ -14,11 +14,10 @@ const initState = [
 
 const App = () => {
   const [mailboxes, setMailboxes] = useState(initState);
-  const [selected, setSelected] = useState({});
 
   const addBox = (newMailboxData) => {
     newMailboxData._id = mailboxes.length + 1;
-    setSelected([...mailboxes, newMailboxData]);
+    setMailboxes([...mailboxes, newMailboxData]);
   };
 
   return (
@@ -31,12 +30,12 @@ const App = () => {
           element={<h2>Welcome to the homepage of the post office!</h2>}
         />
         <Route
-          path="/mailboxes/:mailboxId"
-          element={<MailboxDetails mailboxes={mailboxes} />}
-        />
-        <Route
           path="/mailboxes"
           element={<MailboxList mailboxes={mailboxes} />}
+        />
+        <Route
+          path="/mailboxes/:mailboxId"
+          element={<MailboxDetails mailboxes={mailboxes} />}
         />
         <Route
           path="/mailboxes/new"
