@@ -1,8 +1,50 @@
-# React + Vite
+# Mailbox React Router DOM - Post Office Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
 
-Currently, two official plugins are available:
+- **React** for component-based architecture and interactivity.
+- **React Router** to manage page navigation and handle different URLs.
+- **JavaScript** for dynamic behavior and logic.
+- **HTML** and **CSS** for structuring and styling the components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## App Structure
+
+### Navigation
+
+The application includes a navigation bar that allows users to move between different sections:
+
+- **Home**: The landing page, which provides a welcome message for users.
+- **Mailboxes**: A page that displays a list of all mailboxes.
+- **New Mailbox**: A form page where users can create a new mailbox with specific details.
+
+### Routes
+
+This project uses `react-router-dom` to create a seamless user experience with different routes for each page. Here is an outline of the main routes:
+
+- `/`: The homepage, welcoming users to the post office.
+- `/mailboxes`: A page that displays all mailboxes in a list format.
+- `/mailboxes/:mailboxId`: A page that shows the details of a specific mailbox based on its ID.
+- `/mailboxes/new`: A form for users to create a new mailbox, which includes fields to specify a name and select a size.
+- `/*`: A fallback route that displays a 404 error message when a user navigates to a nonexistent page.
+
+### Achievements
+
+For me the major accomplishment in this project was successfully troubleshooting issues independently. By using resources like MDN Web Docs and using `console.log()` for debugging, errors were identified and resolved, resulting in both learning something new, but also understanding how certain structures are meant to be built out.
+
+### Major Thanks to MDN
+
+The following links were helpful in understanding & learning something new for HTML form elements:
+
+- [HTML `<select>` Element Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+- [HTML `<option>` Element Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
+- [HTML `<input>` Element - Disabled Attribute Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#disabled)
+
+As always thanks to chatGPT for helping me build this Read Me page! :D
+
+- [ChatgpT](https://chatgpt.com)
+
+### Any questions or just curious on certain thins?
+
+- As a user when I'm on the details page. What if I want to press a go back button/text? Since sometimes moving my cursor up to the top is too much. Plus it would be beneficial if I as a user doesn't know how to go back. Or if another case. This details page is in a component within another component. How would I get there without using a Router DOM?
+
+---
