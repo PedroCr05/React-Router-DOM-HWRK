@@ -1,6 +1,6 @@
 # Mailbox React Router DOM - Post Office Project
 
-### Sections for this read me :D
+## Sections for this read me :D
 
 - [Technologies-Used](https://github.com/PedroCr05/React-Router-DOM-HWRK#technologies-used)
 - [App-Structure](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-structure)
