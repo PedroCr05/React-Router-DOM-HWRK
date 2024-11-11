@@ -3,6 +3,7 @@
 ## Sections for this read me :D
 
 - [Technologies-Used](https://github.com/PedroCr05/React-Router-DOM-HWRK#technologies-used)
+- [Files]([https](https://github.com/PedroCr05/React-Router-DOM-HWRK)#files)
 - [App-Structure](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-structure)
 - [Achievements](https://github.com/PedroCr05/React-Router-DOM-HWRK#achievements)
 - [Credits](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#credits)
@@ -14,6 +15,15 @@
 - **React Router** to manage page navigation and handle different URLs.
 - **JavaScript** for dynamic behavior and logic.
 - **HTML** and **CSS** for structuring and styling the components.
+
+## Files
+
+- [App.jsx](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/App.jsx)
+- [Main.jsx](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/main.jsx)
+- [NavBar](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/NavBar.jsx)
+- [Mailbox-Details](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxDetails.jsx)
+- [Mailbox-Form](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxForm.jsx)
+- [Mailbox-List](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxList.jsx)
 
 ## App Structure
 
