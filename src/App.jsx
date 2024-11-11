@@ -14,7 +14,7 @@ const initState = [
 
 const App = () => {
   const [mailboxes, setMailboxes] = useState(initState);
-  // const [selected, setSelected] = useState({});
+  const [selected, setSelected] = useState({});
 
   const addBox = (newMailboxData) => {
     newMailboxData._id = mailboxes.length + 1;
