@@ -11,7 +11,7 @@ const NavBar = () => {
           <Link to="/mailboxes">Mailboxes</Link>
         </li>
         <li>
-          <Link to="/mailboxes/new">New Mailbox</Link>{" "}
+          <Link to="/mailboxes/new">New Mailbox</Link>
         </li>
       </ul>
     </nav>
