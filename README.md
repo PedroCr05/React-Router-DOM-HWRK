@@ -41,7 +41,7 @@ The following links were helpful in understanding & learning something new for H
 
 As always thanks to chatGPT for helping me build this Read Me page! :D
 
-- [ChatgpT](https://chatgpt.com)
+- [ChatGPT](https://chatgpt.com)
 
 ### Any questions or just curious on certain thins?
 
