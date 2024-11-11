@@ -1,5 +1,12 @@
 # Mailbox React Router DOM - Post Office Project
 
+### Sections for this read me :D
+
+- [Technologies-Used](https://github.com/PedroCr05/React-Router-DOM-HWRK#technologies-used)
+- [App-Structure](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-structure)
+- [Achievements](https://github.com/PedroCr05/React-Router-DOM-HWRK#achievements)
+- [Credits](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#credits)
+
 ## Technologies Used
 
 - **React** for component-based architecture and interactivity.
@@ -27,9 +34,11 @@ This project uses `react-router-dom` to create a seamless user experience with d
 - `/mailboxes/new`: A form for users to create a new mailbox, which includes fields to specify a name and select a size.
 - `/*`: A fallback route that displays a 404 error message when a user navigates to a nonexistent page.
 
-### Achievements
+## Achievements
 
 For me the major accomplishment in this project was successfully troubleshooting issues independently. By using resources like MDN Web Docs and using `console.log()` for debugging, errors were identified and resolved, resulting in both learning something new, but also understanding how certain structures are meant to be built out.
+
+## Credits
 
 ### Major Thanks to MDN
 
