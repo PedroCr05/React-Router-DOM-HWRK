@@ -4,7 +4,7 @@
 
 - [Technologies-Used](https://github.com/PedroCr05/React-Router-DOM-HWRK#technologies-used)
 - [Files](https://github.com/PedroCr05/React-Router-DOM-HWRK#files)
-- [App-Structure](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-structure)
+- [App-Functionality](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-functionality)
 - [Achievements](https://github.com/PedroCr05/React-Router-DOM-HWRK#achievements)
 - [Credits](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#credits)
 - [Conclusion](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#conclusion)
@@ -25,7 +25,7 @@
 - [Mailbox-Form](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxForm.jsx)
 - [Mailbox-List](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxList.jsx)
 
-## App Structure
+## App Functionality
 
 ### Navigation
 
