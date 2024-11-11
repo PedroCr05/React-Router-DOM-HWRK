@@ -12,7 +12,7 @@ const MailboxDetails = ({ mailboxes }) => {
       <h2>{selectedMailbox.boxHolder}'s Mailbox</h2>
       <h3>Details</h3>
       <p>Box Number: {selectedMailbox._id}</p>
-      <p>Box size: {selectedMailbox.boxSize}</p>
+      <p>Box Size: {selectedMailbox.boxSize}</p>
     </article>
   );
 };

@@ -25,10 +25,16 @@ const MailboxForm = ({ addBox }) => {
   return (
     <>
       <h2>New Mailbox</h2>
-      <form onSubmit={handleSumbit}>
+      <form action="">
         <input type="text" />
-        <select name="" id=""></select>
       </form>
+      <label htmlFor="boxSize">Mailbox Size: </label>
+      <select name="boxSize" id="boxSize">
+        <option value="">Please, select your mailbox size.</option>
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+      </select>
     </>
   );
 };
