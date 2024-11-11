@@ -59,6 +59,6 @@ As always thanks to chatGPT for helping me build this Read Me page! :D
 
 - As a user when I'm on the details page. What if I want to press a go back button/text? Since sometimes moving my cursor up to the top is too much. Plus it would be beneficial if I as a user doesn't know how to go back. Or if another case. This details page is in a component within another component. How would I get there without using a Router DOM?
 
-- There was an interesting error I did get. Not sure what it really means but it's [this](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/assets/images/image.png). For the text it self is also [here](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/assets/images/react-router.js)
+- There was an interesting error I did get. Not sure what it really means but it's [this](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/assets/images/image.png). For the text it self is also [here](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/assets/images/react-router.js).
   
 ---
