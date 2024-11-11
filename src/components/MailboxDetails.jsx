@@ -8,13 +8,12 @@ const MailboxDetails = ({ mailboxes }) => {
   );
 
   return (
-    <>
-      <h2>{selectedMailbox.boxHolder}</h2>
-      <dl>
-        <dt>Box Size:</dt>
-        <dd>{selectedMailbox.boxSize}</dd>
-      </dl>
-    </>
+    <article>
+      <h2>{selectedMailbox.boxHolder}'s Mailbox</h2>
+      <h3>Details</h3>
+      <p>Box Number: {selectedMailbox._id}</p>
+      <p>Box size: {selectedMailbox.boxSize}</p>
+    </article>
   );
 };
 
