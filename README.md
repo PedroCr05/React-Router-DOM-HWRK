@@ -3,9 +3,11 @@
 ## Sections for this read me :D
 
 - [Technologies-Used](https://github.com/PedroCr05/React-Router-DOM-HWRK#technologies-used)
-- [App-Structure](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-structure)
+- [Files](https://github.com/PedroCr05/React-Router-DOM-HWRK#files)
+- [App-Functionality](https://github.com/PedroCr05/React-Router-DOM-HWRK#app-functionality)
 - [Achievements](https://github.com/PedroCr05/React-Router-DOM-HWRK#achievements)
 - [Credits](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#credits)
+- [Conclusion](https://github.com/PedroCr05/React-Router-DOM-HWRK?tab=readme-ov-file#conclusion)
 
 ## Technologies Used
 
@@ -14,7 +16,16 @@
 - **JavaScript** for dynamic behavior and logic.
 - **HTML** and **CSS** for structuring and styling the components.
 
-## App Structure
+## Files
+
+- [App.jsx](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/App.jsx)
+- [Main.jsx](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/main.jsx)
+- [NavBar](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/NavBar.jsx)
+- [Mailbox-Details](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxDetails.jsx)
+- [Mailbox-Form](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxForm.jsx)
+- [Mailbox-List](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/components/MailboxList.jsx)
+
+## App Functionality
 
 ### Navigation
 
@@ -52,8 +63,12 @@ As always thanks to chatGPT for helping me build this Read Me page! :D
 
 - [ChatGPT](https://chatgpt.com)
 
-### Any questions or just curious on certain thins?
+## Conclusion
+
+### Questions or anything that needs to be pointed out
 
 - As a user when I'm on the details page. What if I want to press a go back button/text? Since sometimes moving my cursor up to the top is too much. Plus it would be beneficial if I as a user doesn't know how to go back. Or if another case. This details page is in a component within another component. How would I get there without using a Router DOM?
 
+- There was an interesting error I did get. Not sure what it really means but it's [this](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/assets/images/image.png). For the text it self is also [here](https://github.com/PedroCr05/React-Router-DOM-HWRK/blob/main/src/assets/images/react-router.js).
+  
 ---
