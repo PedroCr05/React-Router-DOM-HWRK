@@ -1,3 +1,4 @@
+import "../index.css";
 import { Link } from "react-router-dom";
 
 const MailboxList = ({ mailboxes }) => {
@@ -6,9 +7,9 @@ const MailboxList = ({ mailboxes }) => {
       <h2>Mailboxes</h2>
       <ul>
         {mailboxes.map((currentMailbox) => (
-          <li key={currentMailbox.boxHolder}>
+          <li className="mail-box" key={currentMailbox.boxHolder}>
             <Link to={`/mailboxes/${currentMailbox._id}`}>
-              {currentMailbox.boxHolder}
+              Mailbox #{currentMailbox._id}
             </Link>
           </li>
         ))}
